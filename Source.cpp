@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <array>
+#include <deque>
 
 int main()
 {
@@ -39,6 +40,12 @@ int main()
 	return 0;
 
 
+	cout << "1. ---		DEQUE		---" << endl << endl;
+	//ѕредставл€ет собой реализацию двусторонней очереди - double-ended queue: list + vector - "скрещение динамического массива и двусв€зного списка"
 
+
+	deque<int> dq = { 1,2,3,4 };
+	//¬се методы уже рассмотрены при работе с предыдущими контейнерами list и vector
+	
 
 }
